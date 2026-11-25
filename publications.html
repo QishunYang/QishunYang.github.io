@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Publications &ndash; Qishun Yang</title>
+<meta name="description" content="Publications by Qishun Yang: multimodal LLM safety, agent memory privacy, reasoning-induced misalignment, rule-level knowledge editing.">
+<meta property="og:title" content="Publications – Qishun Yang">
+<meta property="og:type" content="website">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lxgw-wenkai-webfont/1.7.0/style.css">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body class="page">
+<div class="page-wrapper">
+
+  <div class="navigation-wrapper">
+    <div class="site-name"><a href="index.html">Qishun Yang</a></div>
+    <div class="top-navigation">
+      <ul>
+        <li><a href="index.html">Main</a></li>
+        <li><a href="publications.html" class="top-navigation-current">Publications</a></li>
+        <li><a href="services.html">Services</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="main" role="main">
+
+    <div class="article-author-top">
+      <img src="assets/img/avatar.svg" class="bio-photo" alt="Qishun Yang">
+
+      <p>
+        <a href="mailto:2131742581@qq.com">
+          <svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><rect x="1.6" y="3.6" width="12.8" height="8.8" rx="1"/><path d="M1.6 4.4L8 9l6.4-4.6"/></svg>Email</a>
+      </p>
+      <p>
+        <a href="https://scholar.google.com/citations?user=KBNeMO0AAAAJ" target="_blank" rel="noopener">
+          <svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 2.2L1.4 5.6 8 9l6.6-3.4z"/><path d="M3.6 7.4v3.1c0 1.3 2 2.3 4.4 2.3s4.4-1 4.4-2.3V7.4"/></svg>Google Scholar</a>
+      </p>
+      <p>
+        <a href="#" class="is-todo" title="Fill in your GitHub profile URL">
+          <svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M5.6 4.4L2.4 8l3.2 3.6"/><path d="M10.4 4.4L13.6 8l-3.2 3.6"/></svg>GitHub</a>
+      </p>
+
+    </div>
+
+    <article>
+      <div class="article-wrap">
+
+        <h2>Publications</h2>
+        <p class="section-note">Names in <strong>bold</strong> are mine. Venues are colour-coded:
+          <span class="venue venue--oral">accepted</span>,
+          <span class="venue venue--findings">findings</span>,
+          <span class="venue venue--review">under review</span>.</p>
+
+        <!-- 1 -->
+        <div class="pub">
+          <a class="pub-thumb" href="https://arxiv.org/abs/2603.08486" target="_blank" rel="noopener">
+            <img src="assets/img/pubs/vsfa.png" alt="VSFA teaser figure" loading="lazy">
+          </a>
+          <p class="pub-title"><a href="https://arxiv.org/abs/2603.08486" target="_blank" rel="noopener">Visual
+            Self-Fulfilling Alignment: Shaping Safety-Oriented Personas via Threat-Related Images</a></p>
+          <p class="pub-authors"><strong>Q. Yang</strong>, S. Yang, L. Hu, D. Wang</p>
+          <p class="pub-venue"><span class="venue venue--oral">ACL 2026 (Oral)</span><span class="pub-links"><a href="https://arxiv.org/abs/2603.08486" target="_blank" rel="noopener">arXiv</a></span></p>
+          <p class="pub-note">Proceedings of the 64th Annual Meeting of the Association for Computational
+            Linguistics. Threat-related images implicitly steer a model toward a safety-oriented
+            persona, without explicit safety labels or contrastive data.</p>
+        </div>
+
+        <!-- 2 -->
+        <div class="pub">
+          <a class="pub-thumb" href="https://arxiv.org/abs/2610.24359" target="_blank" rel="noopener">
+            <img src="assets/img/pubs/memjoin.svg" alt="MemJoin overview figure" loading="lazy">
+          </a>
+          <p class="pub-title"><a href="https://arxiv.org/abs/2610.24359" target="_blank" rel="noopener">Can
+            Agents Keep Secrets They Were Never Told? Benchmarking Latent Privacy Risks Across Sessions
+            with MemJoin</a></p>
+          <p class="pub-authors"><strong>Q. Yang</strong>, S. Yang, D. Xu, D. Wang, M. Ding</p>
+          <p class="pub-venue"><span class="venue venue--review">ICLR 2027 (under review)</span><span class="pub-links"><a href="https://arxiv.org/abs/2610.24359" target="_blank" rel="noopener">arXiv</a></span></p>
+          <p class="pub-note">Formalizes <em>cross-session inference</em>: a sensitive relation exists
+            only once records from several sessions are combined, yet an agent may volunteer it while
+            doing an unrelated task. Ships a 288-case benchmark and a stage-wise diagnostic protocol.</p>
+        </div>
+
+        <!-- 3 -->
+        <div class="pub">
+          <a class="pub-thumb" href="https://arxiv.org/abs/2608.23497" target="_blank" rel="noopener">
+            <img src="assets/img/pubs/sdp.svg" alt="Safety-Direction Penalty teaser figure" loading="lazy">
+          </a>
+          <p class="pub-title"><a href="https://arxiv.org/abs/2608.23497" target="_blank" rel="noopener">Mitigating
+            Reasoning-Induced Misalignment via Safety-Direction Penalty</a></p>
+          <p class="pub-authors">Y. Zhao, <strong>Q. Yang</strong>, S. Zhu, S. Yang, D. Wang</p>
+          <p class="pub-venue"><span class="venue venue--review">NAACL 2027 (under review)</span><span class="pub-links"><a href="https://arxiv.org/abs/2608.23497" target="_blank" rel="noopener">arXiv</a></span></p>
+          <p class="pub-note">Traces reasoning-induced misalignment to coupled reasoning and safety
+            directions, then penalizes displacement along the safety direction at training time — one
+            penalty term, no safety data, no reference policy, no inference overhead.</p>
+        </div>
+
+        <!-- 4 -->
+        <div class="pub">
+          <a class="pub-thumb" href="https://aclanthology.org/2026.findings-emnlp.1924/" target="_blank" rel="noopener">
+            <img src="assets/img/pubs/ruleedit.png" alt="RULE-EDIT teaser figure" loading="lazy">
+          </a>
+          <p class="pub-title"><a href="https://aclanthology.org/2026.findings-emnlp.1924/" target="_blank" rel="noopener">RULE-EDIT:
+            Benchmarking Rule-Level Knowledge Editing in Large Language Models</a></p>
+          <p class="pub-authors">J. Zhang, D. X. Hou, Z. Li, <strong>Q. Yang</strong>, M. K. Ihsani,
+            M. A. Ali, G. Xia, L. Hu</p>
+          <p class="pub-venue"><span class="venue venue--findings">EMNLP 2026 (Findings)</span><span class="pub-links"><a href="https://aclanthology.org/2026.findings-emnlp.1924/" target="_blank" rel="noopener">ACL Anthology</a></span></p>
+          <p class="pub-note">The first benchmark for rule-level knowledge editing, with metrics for rule
+            propagation and cross-form consistency across Formula, Instance, and Description settings.</p>
+        </div>
+
+      </div><!-- /.article-wrap -->
+    </article>
+  </div><!-- /#main -->
+
+</div><!-- /.page-wrapper -->
+
+<div class="footer-wrap">
+  <footer>
+    <h6>&copy; 2026 Qishun Yang. Hosted on GitHub Pages. Hand-written HTML and CSS, no build step.
+      Last updated November 2026.</h6>
+  </footer>
+</div>
+
+</body>
+</html>
